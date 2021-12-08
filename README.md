@@ -1,9 +1,9 @@
-# Purpose of this Folder
+# Purpose of this Application
 
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
+This application shows a list of asteroids which are near to Earth for the next & days. The app uses the NeoWs API of NASA to fetch the list of asteroids.
 
-## Note: Android Kotlin Gradle Update
-Use the updated Gradle version in the `~/gradle/wrapper/gradle-wrapper.properties` file:
-```
-distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
-```
+# Note
+
+You have to enter your NASA API key in the Constants kotlin class to run the program. The NASA api key can be obtained from https://api.nasa.gov/ 
+
+
